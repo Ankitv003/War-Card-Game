@@ -38,13 +38,11 @@ drawCardBtn.addEventListener("click", () => {
       if (data.remaining === 0) {
         drawCardBtn.disabled = true;
         if (computerScore > myScore) {
-          // display "The computer won the game!"
-          header.textContent = "Computer wins the game, you Suck!";
+          header.textContent = "Computer wins the game, you Suck !";
         } else if (myScore > computerScore) {
-          // display "You won the game!"
-          header.textContent = "I won the game, Computer Suck it!";
+          header.textContent = "I won the game, Computer Suck it !";
         } else {
-          header.textContent = "It's a tie game, saved by the bell!";
+          header.textContent = "It's a tie game, saved by the bell !";
         }
       }
     });
